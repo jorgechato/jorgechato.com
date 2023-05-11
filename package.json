@@ -1,6 +1,8 @@
 {
   "name": "jorgechato.com",
-  "version": "0.1.0",
+  "author": "Jorge Chato",
+  "version": "1.0.0",
+  "description": "Entry point for my crazy projects",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -9,12 +11,14 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@jorgechato/manyo": "^1.9.2",
+    "@tailwindcss/typography": "^0.5.9",
     "@types/node": "20.1.2",
     "@types/react": "18.2.6",
     "@types/react-dom": "18.2.4",
+    "@vercel/analytics": "^1.0.1",
     "autoprefixer": "10.4.14",
-    "eslint": "8.40.0",
-    "eslint-config-next": "13.4.1",
+    "highlight.js": "^11.8.0",
     "next": "13.4.1",
     "postcss": "8.4.23",
     "react": "18.2.0",
